@@ -1,0 +1,84 @@
+/* .medicalrecord-table-content {
+  display: flex;
+  justify-content: center;
+}
+
+#header-medicalrecord {
+  text-align: center;
+} */
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.medicalrecord-container{
+  width: 93vw;
+  height: 89vh;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.table-ptn {
+  margin-top: 10px;
+  border-collapse: collapse;
+  margin: 20px; 
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  overflow: hidden; 
+  width: calc(100% - 2em); 
+}
+  
+.table-ptn th,
+.table-ptn td {
+  padding: 10px;
+}
+    
+/* .table-ptn tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+    
+.table-ptn tr:hover {
+  background-color: #ddd;
+}
+    
+tbody {
+  display: table-row-group;
+  margin: 5px;
+}
+    
+thead {
+  display: table-row-group;
+}
+
+/* new */
+.close-details {
+  margin-left: 790px;
+  font-size: 12px;
+}
+.table-history-container {
+  width: 82%;
+  margin-left: 100px;
+}
+.modal-table {
+  width: 80%;
+  margin-left: 120px;
+}
+@media screen and (max-width: 1366px){
+  .view-details{
+    font-size: 12px;
+    height: 30px;
+  }
+  #close-medhisto{
+    font-size: 12px;
+    height: 30px;
+  }
+  .medicalrecord-container{
+    width: 86vw; /*changed*/
+    height: 565px;
+    margin-left: 160px;
+  }
+  #medhisto-array{
+    overflow-y: scroll;
+    
+  }
+}
